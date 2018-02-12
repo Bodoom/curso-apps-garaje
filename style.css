@@ -1,0 +1,34 @@
+/* como introducir los comandos:
+id {
+	propiedad: valor;
+}
+*/
+
+body {
+	text-align: center;
+	
+	background-image: url("invierno.jpg"); 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 2500px;
+	background-position: px,px;
+}
+
+h1 {
+	font-size: 24px;
+	font-family: Taviraj;
+}
+
+button {
+	width: 296px;
+	height: 91px;
+	font-family: Tauri;
+	font-size: 24px;
+	text-transform: uppercase;
+	background-color: #FFFFFF;
+	border: none;
+	opacity: 0.5;
+	transform: translate(0%,300%);
+
+}
+
