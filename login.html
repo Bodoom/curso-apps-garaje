@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Login</title>
+
+	<link rel="stylesheet" href="style2.css">
+
+	<script
+			  src="http://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			  crossorigin="anonymous"></script>
+</head>
+<body>
+
+		
+	<h1><input id="input-usuario" class="input1" type="text" placeholder="Enter user name">
+	 </h1>
+	<h2><input id="input-contraseña" class="input2" type="text" placeholder="Password"></h2>
+	<p class="error">Mensaje de error</p>
+	<h3><button class="boton1">Login</button></h3>
+	<a href="registro.html">
+			<h4><button class="boton4">Registrarse</button></h4>
+		</a>
+
+	<script>
+		var cadena = "Hola mundo";
+		console.log(cadena);
+
+		$(".boton1").click(function() {
+			
+
+			var usuario = $("#input-usuario").val();
+			
+			var contraseña = $("#input-contraseña").val();
+
+		
+			console.log("Usuario " + usuario);
+			
+			console.log("Contraseña " + contraseña);
+
+			if(contraseña =="" || usuario =="") {
+				mostrarError("Hay algún campo vacío");
+			}
+			else {
+				window.location.href = "home.html";
+			}
+			
+
+			function mostrarError(mensaje){
+				$(".error").text("Hay algún campo vacio"); /*cambiamos el mensaje de error a "Hay algún campo vacio"*/
+				$(".error").show(); /* show(); es una funcion que muestra*/
+				
+				
+			}
+
+		});
+
+	</script>
+	
+		
+
+	
+
+</body>
+</html>

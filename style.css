@@ -12,6 +12,8 @@ body {
 	background-position: center;
 	background-size: 2500px;
 	background-position: px,px;
+	border-style:solid;
+	height: 100vh;
 }
 
 h1 {
@@ -19,7 +21,7 @@ h1 {
 	font-family: Taviraj;
 }
 
-button {
+.boton1 {
 	width: 296px;
 	height: 91px;
 	font-family: Tauri;
@@ -28,7 +30,9 @@ button {
 	background-color: #FFFFFF;
 	border: none;
 	opacity: 0.5;
-	transform: translate(0%,300%);
+	transform: translate(0%,500%);
 
 }
+
+
 

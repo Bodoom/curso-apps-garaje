@@ -1,0 +1,55 @@
+body {
+	text-align: center;
+	
+	background-image: url("solidSnake.jpg"); 
+	background-repeat: no-repeat;
+	
+	background-size: 700px;
+	background-position: 200px,400px;
+	height: ; 
+	width: ;
+}
+
+
+
+ {
+	width: 296px;
+	height: 91px;
+	font-family: Tauri;
+	font-size: 24px;
+	text-transform: uppercase;
+	background-color: #FFFFFF;
+	border: none;
+	opacity: 0.5;
+	transform: translate(0%,500%);
+
+}
+
+.input1 {
+	border: none;
+	background-color: rgba(255, 255, 255, 0.8719); 
+	width: 323px;
+	height: 38px;
+	box-shadow: -1px 1px #999999;
+	font-family: : regular;
+	font-size: 24px;
+
+
+}
+
+.input2 {
+	border: none;
+	background-color: rgba(255, 255, 255, 0.8719); 
+	width: 323px;
+	height: 38px;
+	box-shadow: -1px 1px #999999;
+	font-family: : regular;
+	font-size: 24px;
+
+}
+
+.error {
+	color: red;
+	display: none; /*Para no mostrarlo*/
+}
+
