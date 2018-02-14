@@ -5,13 +5,12 @@ id {
 */
 
 body {
-	text-align: center;
+	
 	
 	background-image: url("invierno.jpg"); 
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 2500px;
-	background-position: px,px;
 	border-style:solid;
 	height: 100vh;
 }
@@ -19,6 +18,10 @@ body {
 h1 {
 	font-size: 24px;
 	font-family: Taviraj;
+}
+
+.center-screen {
+	text-align: center;
 }
 
 .boton1 {
@@ -30,7 +33,21 @@ h1 {
 	background-color: #FFFFFF;
 	border: none;
 	opacity: 0.5;
-	transform: translate(0%,500%);
+	margin-left: ;
+    margin-top: 34%;
+
+}
+
+.boton2{
+	background:url("gear.png") no-repeat;
+	background-size: 50px;
+    cursor:pointer;
+    border:none;
+    width:100px;
+    height:100px;
+    margin-left: -90%;
+    margin-top: -10%;
+	
 
 }
 
